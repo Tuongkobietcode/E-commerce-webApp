@@ -23,8 +23,6 @@ Nhân viên bán hàng : Xử lý nghiệp vụ bán hàng
 
 Nhân viên kho: Quản lý tồn kho
 
-Đơn vị giao hàng: Hệ thống hoặc đối tác bên ngoài
-
 4.Yêu cầu chức năng
 
 5.Yêu cầu phi chức năng
@@ -39,13 +37,9 @@ Quản trị viên : có thể là chủ cửa hàng .Đây là người quản 
 
 Nhân viên kho: là người chịu trách nhiệm quản lý hàng hóa trong kho. Mỗi nhân viên kho sẽ được quản trị viên tạo một tài khoản cá nhân để thực hiện các nghiệp vụ liên quan đến kho.
 
-Nhân viên bán hàng: là người xử lý các nghiệp vụ bán hàng .
-
 Khách hàng : người sử dụng hệ thống để mua thiết bị điện tử.
 
 Cổng thanh toán: là hệ thống bên ngoài có nhiệm vụ xử lý các giao dịch thanh toán cho đơn hàng.
-
-Đơn vị giao hàng: là đối tác vận chuyển bên ngoài , chịu trách nhiệm vận chuyển thiết bị điện tử đến khách hàng .
 
 Khách vãng lai: là người truy cập hệ thống nhưng chưa đăng ký hoặc chưa đăng nhập tài khoản . Họ chỉ có thể sử dụng các chức năng cơ bản của hệ thống.
 
