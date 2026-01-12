@@ -17,6 +17,128 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 
 ### 4.Yêu cầu chức năng
 
+#### 4.1. Quản lý sản phẩm
+
+* Thêm, sửa, xóa thông tin sản phẩm.
+* Quản lý danh mục sản phẩm.
+
+* Thêm/sửa các biến thể của sản phẩm:
+* màu sắc, dung lượng, phiên bản, cấu hình.
+
+* Quản lý thông số kỹ thuật chi tiết theo từng loại.
+* Up hình sản phẩm (đa ảnh, ảnh 360°, video).
+
+* Hiển thị đánh giá & bình luận từ khách hàng.
+
+#### 4.2. Quản lý kho hàng
+
+* Hệ thống kho hoạt động theo các nguyên tắc:
+* Quản lý theo lô nhập:
+
+* Theo dõi từng lô bởi:
+* Mã lô
+
+* Ngày nhập
+* Nhà cung cấp
+
+* Giá vốn theo lô
+* Số lượng sản phẩm trong lô
+
+* Quản lý theo serial/IMEI:
+* Mỗi sản phẩm có trạng thái:
+
+* Mới
+* Trưng bày
+
+* Lỗi
+* Đổi trả
+
+* Nghiệp vụ kho:
+* Nhập kho.
+
+* Xuất kho theo đơn hàng.
+* Kiểm kê định kỳ.
+
+* Điều chỉnh chênh lệch.
+* Lịch sử biến động kho đầy đủ.
+
+#### 4.3. Quản lý đơn hàng
+
+* Đơn hàng được vận hành theo chu trình nghiệp vụ chuẩn TMĐT:
+* Trạng thái đơn hàng:
+
+* Chờ xác nhận
+* Đã xác nhận
+
+* Đang đóng gói
+* Chờ giao cho vận chuyển
+
+* Đang giao
+* Giao thành công
+
+* Giao thất bại
+* Yêu cầu đổi trả
+
+* Hoàn tiền / Từ chối yêu cầu
+* Nghiệp vụ xử lý đơn:
+
+* Kiểm tra tồn kho theo serial khi duyệt đơn.
+* Gán serial sản phẩm vào đơn hàng.
+
+* Hủy đơn (theo điều kiện):
+* trước khi đóng gói
+
+* Đổi trả hàng:
+* cập nhật kho theo trạng thái khác (hàng đổi trả / hàng lỗi)
+
+* Theo dõi trạng thái giao hàng qua API bên vận chuyển.
+
+#### 4.4. Quản lý khách hàng
+
+* Hồ sơ cá nhân.
+* Nhiều địa chỉ giao hàng.
+
+* Lịch sử đơn hàng.
+* Đánh giá sản phẩm.
+
+* Thông tin bảo hành & yêu cầu hỗ trợ.
+
+#### 4.5. Quản lý khuyến mãi
+
+* Cho phép tạo nhiều hình thức khuyến mãi:
+* Loại chương trình:
+
+* Giảm giá theo sản phẩm.
+* Giảm giá theo danh mục.
+
+* Giảm theo số tiền / %.
+* Flash sale theo giờ.
+
+* Mã giảm giá (Coupon).
+* Điều kiện áp dụng:
+
+* Đơn hàng tối thiểu.
+* Số lượng có hạn.
+
+* Khách hàng mới/khách hàng thân thiết.
+* Chỉ áp dụng cho sản phẩm/danh mục cụ thể.
+
+* Giới hạn theo thời gian.
+
+#### 4.6. Chức năng dành cho khách hàng
+
+* Đăng ký / đăng nhập (JWT, OAuth Google).
+* Tìm kiếm nâng cao:
+
+* lọc theo giá, thương hiệu, cấu hình, hiệu năng.
+* So sánh sản phẩm.
+
+* Giỏ hàng.
+* Theo dõi đơn hàng realtime.
+
+* Yêu thích sản phẩm.
+* Yêu cầu bảo hành / đổi trả.
+
 ### 5.Yêu cầu phi chức năng
 
 #### 5.1. Yêu cầu về hiệu năng (Performance)
@@ -31,8 +153,6 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
    * Sử dụng cache cho sản phẩm phổ biến
    * Tối ưu hình ảnh
 
----
-
 #### 5.2. Yêu cầu về khả năng mở rộng (Scalability)
 
 1. Hệ thống có thể mở rộng:
@@ -41,8 +161,6 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 1. Hỗ trợ mở rộng theo chiều:
    * Nâng cấp server
    * Tách dịch vụ (database, payment, search)
-
----
 
 #### 5.3. Yêu cầu về bảo mật (Security)
 
@@ -57,8 +175,6 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 
    * Tuân thủ chuẩn bảo mật thanh toán (PCI-DSS nếu có)
 
----
-
 #### 5.4. Yêu cầu về độ tin cậy & tính sẵn sàng (Reliability & Availability)
 
 1. Tính sẵn sàng:
@@ -68,22 +184,18 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 
    * Backup hàng ngày (database, đơn hàng)
 
----
-
 #### 5.5. Yêu cầu về khả năng sử dụng (Usability)
 
 1. Giao diện:
    * Thân thiện, dễ sử dụng cho người không rành công nghệ
    * Phù hợp cho mọi độ tuổi
-1. Tìm kiếm & điều hướng:
+2. Tìm kiếm & điều hướng:
    * Dễ tìm sản phẩm theo hãng, giá, cấu hình
-1. Responsive:
-   * Hoạt động tốt trên **desktop**
-1. Hỗ trợ:
+3. Responsive:
+   * Hoạt động tốt trên **mọi loại màn hình**
+4. xHỗ trợ:
    * Thông báo lỗi rõ ràng
    * Hướng dẫn đặt hàng, thanh toán
-
----
 
 #### 5.6. Yêu cầu về khả năng tương thích (Compatibility)
 
@@ -95,8 +207,6 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
    * Cổng thanh toán (VNPay, MoMo, ZaloPay…)
    * Đơn vị vận chuyển
 
----
-
 #### 5.7. Yêu cầu về khả năng bảo trì (Maintainability)
 
 1. Mã nguồn:
@@ -105,8 +215,6 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 1. Dễ cập nhật:
 
    * Thêm sản phẩm, thay đổi giá, khuyến mãi không ảnh hưởng hệ thống
-
----
 
 #### 5.8. Yêu cầu về pháp lý & tuân thủ (Legal & Compliance)
 
