@@ -13,6 +13,10 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 
 2.Công nghệ sử dụng
 
+* **Front-end (phần giao diện):** HTML, CSS, Reach.js, TailwindCSS
+* **Back-end (xử lý logic & dữ liệu):** JavaScript, Typescript, Node.js
+* **Database (cơ sở dữ liệu):** MongoDB(Mongoose), MySQL
+
 3.Các tác nhân tham gia
 
 4.Yêu cầu chức năng
@@ -20,3 +24,7 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 5.Yêu cầu phi chức năng
 
 6.Các use  case
+
+6.2. Sơ đồ use case tổng quát
+
+![1768202525094](image/PTTK/1768202525094.png)
