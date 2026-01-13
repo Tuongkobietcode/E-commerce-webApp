@@ -19,8 +19,6 @@ Khách hàng : Người mua thiết bị điện tử trên hệ thống
 
 Quản trị viên: Người quản lý toàn bộ hệ thống
 
-Nhân viên bán hàng : Xử lý nghiệp vụ bán hàng
-
 Nhân viên kho: Quản lý tồn kho
 
 4.Yêu cầu chức năng
@@ -45,9 +43,9 @@ Khách vãng lai: là người truy cập hệ thống nhưng chưa đăng ký h
 
 Danh sách tác nhân và use case:
 
-| STT | Tên tác nhân        | Use case                                                                                           |
-| --- | ------------------- | -------------------------------------------------------------------------------------------------- |
-| 1   | Quản trị viên       | Quản lý khách hàng, quản lý đơn hàng, quản lý sản phẩm, quản lý khuyến mãi,đăng nhập               |
-| 2   | Khách hàng          | Đăng nhập, Thanh toán, quản lý giỏ hàng, đặt hàng,đăng ký tài khoản,tìm kiếm sản phẩm,xem sản phẩm |
-| 3   | Khách hàng vãng lai | tìm kiếm sản phẩm, xem sản phẩm                                                                    |
-| 4   | Nhân viên kho       | Quản lý kho, đăng nhập                                                                             |
+| STT | Tên tác nhân        | Use case                                                                             |
+| --- | ------------------- | ------------------------------------------------------------------------------------ |
+| 1   | Quản trị viên       | Quản lý khách hàng, quản lý đơn hàng, quản lý sản phẩm, quản lý khuyến mãi,đăng nhập |
+| 2   | Khách hàng          | Đăng nhập, Thanh toán, quản lý giỏ hàng, đặt hàng,tìm kiếm sản phẩm,xem sản phẩm     |
+| 3   | Khách hàng vãng lai | tìm kiếm sản phẩm, xem sản phẩm,đăng ký tài khoản                                    |
+| 4   | Nhân viên kho       | Quản lý kho, đăng nhập                                                               |
