@@ -27,4 +27,4 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 
 6.2. Sơ đồ use case tổng quát
 
-![1768202525094](image/PTTK/1768202525094.png)
+![1768297429920](image/PTTK/1768297429920.png)
