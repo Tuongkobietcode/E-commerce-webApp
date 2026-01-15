@@ -21,44 +21,32 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 
 * Thêm, sửa, xóa thông tin sản phẩm.
 * Quản lý danh mục sản phẩm.
-
 * Thêm/sửa các biến thể của sản phẩm:
 * màu sắc, dung lượng, phiên bản, cấu hình.
-
 * Quản lý thông số kỹ thuật chi tiết theo từng loại.
 * Up hình sản phẩm (đa ảnh, ảnh 360°, video).
-
 * Hiển thị đánh giá & bình luận từ khách hàng.
 
 #### 4.2. Quản lý kho hàng
 
 * Hệ thống kho hoạt động theo các nguyên tắc:
 * Quản lý theo lô nhập:
-
 * Theo dõi từng lô bởi:
 * Mã lô
-
 * Ngày nhập
 * Nhà cung cấp
-
 * Giá vốn theo lô
 * Số lượng sản phẩm trong lô
-
 * Quản lý theo serial/IMEI:
 * Mỗi sản phẩm có trạng thái:
-
 * Mới
 * Trưng bày
-
 * Lỗi
 * Đổi trả
-
 * Nghiệp vụ kho:
 * Nhập kho.
-
 * Xuất kho theo đơn hàng.
 * Kiểm kê định kỳ.
-
 * Điều chỉnh chênh lệch.
 * Lịch sử biến động kho đầy đủ.
 
@@ -66,76 +54,56 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 
 * Đơn hàng được vận hành theo chu trình nghiệp vụ chuẩn TMĐT:
 * Trạng thái đơn hàng:
-
 * Chờ xác nhận
 * Đã xác nhận
-
 * Đang đóng gói
 * Chờ giao cho vận chuyển
-
 * Đang giao
 * Giao thành công
-
 * Giao thất bại
 * Yêu cầu đổi trả
-
 * Hoàn tiền / Từ chối yêu cầu
 * Nghiệp vụ xử lý đơn:
-
 * Kiểm tra tồn kho theo serial khi duyệt đơn.
 * Gán serial sản phẩm vào đơn hàng.
-
 * Hủy đơn (theo điều kiện):
 * trước khi đóng gói
-
 * Đổi trả hàng:
 * cập nhật kho theo trạng thái khác (hàng đổi trả / hàng lỗi)
-
 * Theo dõi trạng thái giao hàng qua API bên vận chuyển.
 
 #### 4.4. Quản lý khách hàng
 
 * Hồ sơ cá nhân.
 * Nhiều địa chỉ giao hàng.
-
 * Lịch sử đơn hàng.
 * Đánh giá sản phẩm.
-
 * Thông tin bảo hành & yêu cầu hỗ trợ.
 
 #### 4.5. Quản lý khuyến mãi
 
 * Cho phép tạo nhiều hình thức khuyến mãi:
 * Loại chương trình:
-
 * Giảm giá theo sản phẩm.
 * Giảm giá theo danh mục.
-
 * Giảm theo số tiền / %.
 * Flash sale theo giờ.
-
 * Mã giảm giá (Coupon).
 * Điều kiện áp dụng:
-
 * Đơn hàng tối thiểu.
 * Số lượng có hạn.
-
 * Khách hàng mới/khách hàng thân thiết.
 * Chỉ áp dụng cho sản phẩm/danh mục cụ thể.
-
 * Giới hạn theo thời gian.
 
 #### 4.6. Chức năng dành cho khách hàng
 
 * Đăng ký / đăng nhập (JWT, OAuth Google).
 * Tìm kiếm nâng cao:
-
 * lọc theo giá, thương hiệu, cấu hình, hiệu năng.
 * So sánh sản phẩm.
-
 * Giỏ hàng.
 * Theo dõi đơn hàng realtime.
-
 * Yêu thích sản phẩm.
 * Yêu cầu bảo hành / đổi trả.
 
@@ -146,10 +114,10 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 1. Thời gian tải trang:
    * Trang chủ, trang danh mục: ≤ **3 giây**
    * Trang chi tiết sản phẩm: ≤ **2 giây**
-1. Khả năng xử lý:
+2. Khả năng xử lý:
    * Hỗ trợ tối thiểu **1.000–5.000 người dùng đồng thời**
    * Xử lý nhanh các thao tác tìm kiếm, lọc sản phẩm, thêm vào giỏ hàng
-1. Tối ưu:
+3. Tối ưu:
    * Sử dụng cache cho sản phẩm phổ biến
    * Tối ưu hình ảnh
 
@@ -158,7 +126,7 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 1. Hệ thống có thể mở rộng:
    * Khi số lượng sản phẩm tăng (10.000+ sản phẩm)
    * Khi lượng truy cập tăng cao vào các dịp khuyến mãi
-1. Hỗ trợ mở rộng theo chiều:
+2. Hỗ trợ mở rộng theo chiều:
    * Nâng cấp server
    * Tách dịch vụ (database, payment, search)
 
@@ -167,11 +135,11 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 1. Xác thực và phân quyền:
 
    * Người dùng, quản trị viên, nhân viên
-1. Bảo mật dữ liệu:
+2. Bảo mật dữ liệu:
 
    * Mã hóa mật khẩu
    * HTTPS cho toàn bộ website
-1. Thanh toán:
+3. Thanh toán:
 
    * Tuân thủ chuẩn bảo mật thanh toán (PCI-DSS nếu có)
 
@@ -180,7 +148,7 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 1. Tính sẵn sàng:
 
    * Website hoạt động **99.5% – 99.9% uptime**
-1. Sao lưu dữ liệu:
+2. Sao lưu dữ liệu:
 
    * Backup hàng ngày (database, đơn hàng)
 
@@ -201,9 +169,9 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 
 1. Trình duyệt:
    * Chrome, Firefox, Edge, Safari
-1. Thiết bị:
+2. Thiết bị:
    * PC, laptop
-1. Tích hợp:
+3. Tích hợp:
    * Cổng thanh toán (VNPay, MoMo, ZaloPay…)
    * Đơn vị vận chuyển
 
@@ -212,7 +180,7 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 1. Mã nguồn:
 
    * Dễ đọc, có tài liệu
-1. Dễ cập nhật:
+2. Dễ cập nhật:
 
    * Thêm sản phẩm, thay đổi giá, khuyến mãi không ảnh hưởng hệ thống
 
@@ -222,6 +190,20 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 
    * Luật bảo vệ dữ liệu cá nhân
    * Chính sách bảo mật và điều khoản sử dụng
-1. Lưu trữ thông tin khách hàng
+2. Lưu trữ thông tin khách hàng
 
-### 6.Các use  case
+### 6. Các use  case
+
+#### 6.3. Usecase chi tiết
+
+##### 6.3.1. Chức năng thanh toán
+
+![1768456431932](image/PTTK/1768456431932.png)
+
+##### 6.3.2. Chức năng quản lý giỏ hàng
+
+![1768456536133](image/PTTK/1768456536133.png)
+
+##### 6.3.3. Quản lý kho hàng
+
+![1768456580479](image/PTTK/1768456580479.png)
