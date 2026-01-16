@@ -131,3 +131,37 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
   5.Yêu cầu phi chức năng
 
   6.Các use case
+
+### 8. Biểu đồ Sequence
+
+#### 8.1. Quản lý đơn hàng
+
+##### 8.1.1. Xem danh sách đơn hàng
+
+![1768546863544](image/PTTK/1768546863544.png)
+
+8.1.2. Xác nhận đơn hàng
+
+![1768546924035](image/PTTK/1768546924035.png)
+
+8.1.3. Cập nhật trạng thái đơn hàng
+
+![1768546970712](image/PTTK/1768546970712.png)
+
+8.1.4. Hủy đơn hàng
+
+![1768547002819](image/PTTK/1768547002819.png)
+
+8.2. Quản lý khách hàng
+
+8.2.1. Xem thông tin khách hàng
+
+![1768547062677](image/PTTK/1768547062677.png)
+
+8.2.2. Cập nhật thông tin khách hàng
+
+![1768547101239](image/PTTK/1768547101239.png)
+
+8.2.3. Khóa/mở tài khoản khách hàng
+
+![1768547138567](image/PTTK/1768547138567.png)
