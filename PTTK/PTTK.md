@@ -200,6 +200,8 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 
 ![1768456431932](image/PTTK/1768456431932.png)
 
+8. 
+
 ##### 6.3.2. Chức năng quản lý giỏ hàng
 
 ![1768456536133](image/PTTK/1768456536133.png)
@@ -207,3 +209,37 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 ##### 6.3.3. Quản lý kho hàng
 
 ![1768456580479](image/PTTK/1768456580479.png)
+
+### 8.Biểu đồ sequence
+
+#### 8.4.Quản lý giỏ hàng
+
+##### 8.4.1.Đăng nhập
+
+![1768547077274](image/PTTK/1768547077274.png)
+
+##### 8.4.2.Xem giỏ hàng
+
+![1768547115809](image/PTTK/1768547115809.png)
+
+##### 8.4.3.Thêm sản phẩm
+
+![1768547162800](image/PTTK/1768547162800.png)
+
+##### 8.4.4.Cập nhật sản phẩm
+
+![1768547211795](image/PTTK/1768547211795.png)
+
+##### 8.4.5.Xóa sản phẩm
+
+![1768547271162](image/PTTK/1768547271162.png)
+
+#### 8.5.Thanh toán
+
+##### 8.5.1.Xác nhận giỏ hàng
+
+![1768547389936](image/PTTK/1768547389936.png)
+
+##### 8.5.1.Chọn phương thức thanh toán
+
+![1768547471594](image/PTTK/1768547471594.png)
