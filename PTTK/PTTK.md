@@ -49,3 +49,7 @@ Danh sách tác nhân và use case:
 | 2   | Khách hàng          | Đăng nhập, Thanh toán, quản lý giỏ hàng, đặt hàng,tìm kiếm sản phẩm,xem sản phẩm     |
 | 3   | Khách hàng vãng lai | tìm kiếm sản phẩm, xem sản phẩm,đăng ký tài khoản                                    |
 | 4   | Nhân viên kho       | Quản lý kho, đăng nhập                                                               |
+
+#### 9.Biểu đồ lớp
+
+![1768547536044](image/PTTK/1768547536044.png)
