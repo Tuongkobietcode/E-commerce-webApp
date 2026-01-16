@@ -28,3 +28,31 @@ Website hướng đến trải nghiệm mua sắm hiện đại, tốc độ cao
 6.2. Sơ đồ use case tổng quát
 
 ![1768541834704](image/PTTK/1768541834704.png)
+
+7.Biểu đồ hoạt động (Activity Diagram)
+
+7.1. Đăng ký
+
+![1768547476574](image/PTTK/1768547476574.png)
+
+7.2. Đăng nhập
+
+![1768547531224](image/PTTK/1768547531224.png)
+
+7.3. Quản lý sản phẩm
+
+7.3.1. Thêm sản phẩm
+
+![1768547577069](image/PTTK/1768547577069.png)
+
+7.3.2. Sửa sản phẩm
+
+![1768547613104](image/PTTK/1768547613104.png)
+
+7.3.3. Xoá sản phẩm
+
+![1768547654525](image/PTTK/1768547654525.png)
+
+7.3.4. Xem danh sách sản phẩm
+
+![1768547689478](image/PTTK/1768547689478.png)
